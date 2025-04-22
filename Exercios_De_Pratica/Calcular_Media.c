@@ -2,20 +2,21 @@
 int main(){
 
 
-    int Nota1 = 5.2;
-    int Nota2 = 6.3;
-    int Media ;
+    float Nota1, Nota2;
+    float Media ;
 
 
-    printf("***Programa de cálculo de média***\n");
+    printf("***Programa de cálculo Média***\n\n");
 
-    printf("Insira a primeira nota: ");
-    scanf("%d", &Nota1);
+    printf("Insira a sua primeira nota: ");
+    scanf("%f", &Nota1);
 
-    printf("Insira a segunda nota: ");
-    scanf("%.d", &Nota2);
+    printf("Insira a sua segunda nota: ");
+    scanf("%f", &Nota2);
 
-    printf("A sua média é: %d", Media);
+    Media = (Nota1 + Nota2 )/2;//Caso as notas a serem fossem int poderia se forçar a média a ser exibida como (float) cast colocando a frente da função de somar
+
+    printf("A sua média é: %.1f", Media);
 
 
     return 0;
