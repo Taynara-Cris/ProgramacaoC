@@ -2,17 +2,20 @@
 int main(){
 
 
-    float Nota1 = 5.2;
-    float Nota2 = 6.3;
-    float Media = Nota1 + Nota2 /2;
+    int Nota1 = 5.2;
+    int Nota2 = 6.3;
+    int Media ;
+
+
+    printf("***Programa de cálculo de média***\n");
 
     printf("Insira a primeira nota: ");
-    scanf("%.2f", &Nota1 );
+    scanf("%d", &Nota1);
 
     printf("Insira a segunda nota: ");
-    scanf("%.2f", &Nota2);
+    scanf("%.d", &Nota2);
 
-    printf("A sua média é: %.2f", Media);
+    printf("A sua média é: %d", Media);
 
 
     return 0;
