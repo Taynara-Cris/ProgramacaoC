@@ -1,3 +1,7 @@
+#include<stdio.h>
+int main(){
+
+
 //Variáveis Carta 1
 char Estado_01 = 'S';
 char Codigo_Carta_01 [3] = "A1";
