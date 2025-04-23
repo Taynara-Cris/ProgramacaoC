@@ -10,6 +10,9 @@ int Populacao_01 = 15000000;
 float Area_01 = 13200.00;
 float PIB_01 = 2500000.00;
 int Quant_Pontos_Turisticos_01 = 5;
+float Densidade_Populacional_01 = 8102.47;
+float PIB_Per_Capita_01 = 56724.32;
+
 
 //Variáveis Carta2
 char Estado_02 = 'P';
@@ -19,6 +22,8 @@ int Populacao_02 = 20000000;
 float Area_02 = 24000.00;
 float PIB_02 = 5000000.00;
 int Quant_Pontos_Turisticos_02 = 10;
+float Densidade_Populacional_02 = 8102.47;
+float PIB_Per_Capita_02 = 56724.32;
 
 //Coleta de dados
 
