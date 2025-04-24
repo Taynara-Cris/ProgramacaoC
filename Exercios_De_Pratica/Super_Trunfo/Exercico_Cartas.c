@@ -33,7 +33,7 @@ printf("Digite uma letra de A a H para o estado: ");
 scanf("%c", &Estado_01);
 
 printf("Digite um número de 01 a 04 que será o código da cidade: ");
-scanf("%s", &Codigo_Carta_01 );
+scanf("%c", &Codigo_Carta_01 );
 
 printf("Digite o nome da cidade: ");
 scanf("%s", &Nome_Cidade_01);
@@ -89,6 +89,12 @@ printf("Área: %f km²\n", Area_01);
 printf("PIB : %.3f bilhões de reais\n", PIB_01);
 printf("Número de pontos turísticos: %d\n", Quant_Pontos_Turisticos_01);
 
+Densidade_Populacional_01 = (float) Populacao_01 / Area_01; //Aqui foi feita a formatação explicitamente para float  pois as variáveis da função são de tipos diferentes.
+PIB_Per_Capita_01 = (float) Populacao_01 / PIB_01;
+
+printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional_01);//Foram adicionados os novos resultados da utilização dos operadores matemáticos
+printf("PIB per Capita: %.2f reais \n", PIB_Per_Capita_01);
+
 printf("\n\n");
 
 printf("CARTA 2:\n\n");
@@ -100,6 +106,12 @@ printf("População: %d\n", Populacao_02);
 printf("Área: %f km²\n", Area_02);
 printf("PIB : %.3f bilhões de reais\n", PIB_02);
 printf("Número de pontos turísticos: %d\n", Quant_Pontos_Turisticos_02);
+
+Densidade_Populacional_02 = (float) Populacao_02 / Area_02;
+PIB_Per_Capita_02 = (float) Populacao_02 / PIB_02;
+
+printf("Densidade Populacional: %.2f hab/km²\n", Densidade_Populacional_02);//Foram adicionados os novos resultados da utilização dos operadores matemáticos
+printf("PIB per Capita: %.3f reais\n", PIB_Per_Capita_02);
 
 return 0;
 }
