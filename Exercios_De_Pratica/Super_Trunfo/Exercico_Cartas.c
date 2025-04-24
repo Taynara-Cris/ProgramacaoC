@@ -4,7 +4,7 @@ int main(){
 
 //Variáveis Carta 1
 char Estado_01 = 'S';
-char Codigo_Carta_01 [3] = "A1";
+char Codigo_Carta_01 [2] = "A1";
 char Nome_Cidade_01 [60] = "Sergipe";
 int Populacao_01 = 15000000;
 float Area_01 = 13200.00;
@@ -12,6 +12,7 @@ float PIB_01 = 2500000.00;
 int Quant_Pontos_Turisticos_01 = 5;
 float Densidade_Populacional_01 = 8102.47;
 float PIB_Per_Capita_01 = 56724.32;
+
 
 
 //Variáveis Carta2
